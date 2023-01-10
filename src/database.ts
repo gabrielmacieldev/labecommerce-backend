@@ -2,25 +2,30 @@ import { CATEGORY, TProduct, TPurchase, TUser } from "./types"
 
 export const users: TUser[] = [
     {
-        id: 'a01',
+        id: '01',
         email: 'alfredinho@alfredinho.com',
         password: '123456'
     },
     {
-        id: 'a02',
+        id: '02',
         email: 'xurupitas@xurupitas.com',
         password: '654321'
+    },
+    {
+        id: '03',
+        email: 'johntextor@eagleholds.com',
+        password: 'boss2020'
     }
 ]
 export const products: TProduct[] = [
     {
-        id: 'p01',
+        id: '01',
         name: 'fubá',
         price: 10,
         category: CATEGORY.FOOD
     },
     {
-        id: '01',
+        id: '02',
         name: 'placa de vídeo',
         price: 5.000,
         category: CATEGORY.COMPUTER
@@ -37,7 +42,7 @@ export const purchases: TPurchase[] = [
         userId: 'a02',
         productId: '01',
         quantity: 1,
-        totalPrice: 5.000
+        totalPrice: 5000
     }
 ]
 
