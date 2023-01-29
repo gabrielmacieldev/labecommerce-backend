@@ -9,18 +9,23 @@
 - Postman
 
 ## Endpoints de Usuários
-- GET All Users
-- POST Create User
-- Delete User By ID
-- PUT Edit User By ID
+- GET /users
+- POST /products
+- DEL /users/:id
+- PUT /users/:id
 
 ## Endpoints de Produtos
-- POST /products
 - GET /products
+- GET /product/search?name=?
+- GET /products/:id
+- POST /products
+- DEL /products/:id
 - PUT /products/:id
 
 ## Endpoints de Compras
 - GET /purchases
+- GET /purchase/:id
+- GET /users/:id/purchases
 - POST /purchases
 - DELETE /purchases/:id
 
